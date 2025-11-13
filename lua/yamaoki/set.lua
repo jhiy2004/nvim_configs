@@ -1,7 +1,7 @@
 vim.opt.tabstop = 4
-vim.opt.softtabstop= 4
-vim.opt.shiftwidth = 4
-vim.opt.expandtab = false
+vim.opt.softtabstop= -1
+vim.opt.shiftwidth = 0
+vim.opt.expandtab = true
 vim.opt.termguicolors = false
 
 vim.opt.smartindent = true
