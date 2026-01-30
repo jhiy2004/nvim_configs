@@ -15,7 +15,6 @@ return {
 
     vim.g.vimtex_quickfix_enabled = 0
 
-
     vim.g.vimtex_compiler_method = 'latexmk'
     vim.g.vimtex_compiler_latexmk = {
       background = 1,
@@ -28,6 +27,7 @@ return {
         '-silent',
         '-shell-escape',
         '-synctex=1',
+        '-pdf',
       },
     }
 
